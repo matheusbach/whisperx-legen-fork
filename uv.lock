@@ -1,5 +1,5 @@
 version = 1
-revision = 2
+revision = 3
 requires-python = ">=3.9, <3.13"
 resolution-markers = [
     "python_full_version >= '3.12'",
@@ -1806,7 +1806,7 @@ wheels = [
 
 [[package]]
 name = "pyannote-audio"
-version = "3.3.2"
+version = "3.4.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "asteroid-filterbanks" },
@@ -1829,9 +1829,9 @@ dependencies = [
     { name = "torchaudio" },
     { name = "torchmetrics" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/e9/00/3b96ca7ad0641e4f64cfaa2af153dc7da0998ff972280e1c1681b1fcc243/pyannote_audio-3.3.2.tar.gz", hash = "sha256:b2115e86b0db5faedb9f36ee1a150cebd07f7758e65e815accdac1a12ca9c777", size = 13664309, upload-time = "2024-09-11T11:07:48.274Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/ec/1e/efe9619c38f1281ddf21640654d8ea9e3f67c459b76f78657b26d8557bbe/pyannote_audio-3.4.0.tar.gz", hash = "sha256:d523d883cb8d37cb6daf99f3ba83f9138bb193646ad71e6eae7deb89d8ddd642", size = 804850, upload-time = "2025-09-09T07:04:51.17Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/17/e6/76049470d90217f9a15a34abf3e92d782cabc3fb4ab27515c9baaa5495d1/pyannote.audio-3.3.2-py2.py3-none-any.whl", hash = "sha256:599c694acd5d193215147ff82d0bf638bb191204ed502bd9fde8ff582e20aa1c", size = 898707, upload-time = "2024-09-11T11:07:46.12Z" },
+    { url = "https://files.pythonhosted.org/packages/79/13/620c6f711b723653092fd063bfee82a6af5ea3a4d3c42efc53ce623a7f4d/pyannote_audio-3.4.0-py2.py3-none-any.whl", hash = "sha256:36e38f058059f46da3478dda581cda53d9d85a21173a3e70bbdbc3ba93b5e1b7", size = 897789, upload-time = "2025-09-09T07:04:49.464Z" },
 ]
 
 [[package]]
@@ -2812,7 +2812,7 @@ requires-dist = [
     { name = "numpy", specifier = ">=2.0.2" },
     { name = "onnxruntime", specifier = ">=1.19" },
     { name = "pandas", specifier = ">=2.2.3" },
-    { name = "pyannote-audio", specifier = ">=3.3.2" },
+    { name = "pyannote-audio", specifier = "==3.4.0" },
     { name = "torch", specifier = ">=2.5.1" },
     { name = "torchaudio", specifier = ">=2.5.1" },
     { name = "transformers", specifier = ">=4.48.0" },
