@@ -2787,7 +2787,7 @@ wheels = [
 ]
 
 [[package]]
-name = "whisperx"
+name = "whisperx-legen-fork"
 version = "3.4.2"
 source = { editable = "." }
 dependencies = [

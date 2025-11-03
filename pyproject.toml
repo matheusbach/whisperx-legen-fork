@@ -1,9 +1,9 @@
 [project]
-urls = { repository = "https://github.com/m-bain/whisperx" }
-authors = [{ name = "Max Bain" }]
-name = "whisperx"
+urls = { repository = "https://github.com/matheusbach/whisperx" }
+authors = [{ name = "Max Bain" }, { name = "Matheus Bach" }]
+name = "whisperx-legen-fork"
 version = "3.4.2"
-description = "Time-Accurate Automatic Speech Recognition using Whisper."
+description = "Flavored fork of m-bain/WhisperX for LeGen better experience"
 readme = "README.md"
 requires-python = ">=3.9, <3.13"
 license = { text = "BSD-2-Clause" }
