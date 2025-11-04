@@ -2,7 +2,7 @@
 urls = { repository = "https://github.com/matheusbach/whisperx" }
 authors = [{ name = "Max Bain" }, { name = "Matheus Bach" }]
 name = "whisperx-legen-fork"
-version = "3.4.2"
+version = "3.4.3"
 description = "Flavored fork of m-bain/WhisperX for LeGen better experience"
 readme = "README.md"
 requires-python = ">=3.9, <3.13"
@@ -33,4 +33,4 @@ include-package-data = true
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["whisperx*"]
+include = ["whisperx*", "whisperx_legen_fork*"]
